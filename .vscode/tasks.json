@@ -1,0 +1,12 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "gap_test",
+            "type": "shell",
+            "command": "source ~/gap_sdk/configs/gapuino_v2.sh\nmake clean all run"
+        }
+    ]
+}
